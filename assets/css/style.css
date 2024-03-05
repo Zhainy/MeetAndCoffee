@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+body {
+    font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  position: relative;
+}
+
+header {
+    background-image: url(../img/bg-hero.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    color: white;
+    text-align: right;
+    text-shadow: 0px 3px 0px black;
+    height: 400px;
+    z-index: 1;
+    margin-top: 60px;
+    padding: 50px 30px 0px 0px;
+    
+}
+header h1 {
+    font-size: 60px;
+}
+header h2{
+    font-size: 40px;
+    font-weight: lighter;
+}   
+nav {
+    padding-bottom: 15px;
+    background-color: black;
+    position: fixed;
+    z-index: 0;
+    top: 0;
+    width: 100vw;
+}
+nav a {
+    color: white;
+}
+nav ul {
+    text-align: left;
+   
+}
+nav ul li {
+    display: inline-block;
+    vertical-align: middle;
+    list-style: none;
+    padding: 0 10px;
+    padding-top: 10px;
+    
+}
+nav ul li a {
+    text-decoration: none;
+}
+.icono {
+    width: 2rem;
+    margin-left: 20px;
+
+}
+.icono svg {
+    fill: white;
+}
+.donde{
+    text-align: center;
+    padding: 50px;
+    font-family: sans-serif; 
+}
+.donde h3 {
+    margin-top: 25px;
+}
+.donde p {
+    margin-top: 15px;
+}
+#proxima-charla {
+    color: white;
+    background-color: #a4452c;
+    padding: 100px;
+    font-family: sans-serif;
+    
+}
+#proxima-charla .wrapper {
+    width: 80vw;
+    margin: auto;
+    
+}
+.wrapper {
+    padding-left: 150px;
+}
+.wrapper img {
+    width: 15% ;
+    padding: 20px;
+}
+.wrapper .texto {
+    width: 70%;
+    margin-left: 4%;  
+}
+.wrapper img, .texto {
+    display: inline-block;
+    vertical-align: middle;
+}
+.wrapper .texto span {
+    font-size: 10px;
+}
+.wrapper .texto h3, h4 {
+    font-weight: bolder;
+    font-size: 45px;
+}
+.wrapper .texto h5 {
+    font-size: 25px;
+    font-weight: 100; 
+    margin-top: 10px;
+}
+footer {
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    background: #000f08;
+    color: white;
+    padding: 20px
+   }
+
+i {
+    font-size: 30px
+   }
+#eventos-anteriores {
+    text-align: center;
+}
+.row{
+    width: 200px;
+}
